@@ -1,0 +1,24 @@
+# Segredos
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Dados processados pesados e caches do LLM (regeneráveis)
+data/processed/*.parquet
+data/processed/*.npy
+data/processed/cache_llm*.jsonl
+# Exceção: versionamos o cache zero-shot (32 extrações reais do LLM) para que
+# a avaliação seja reproduzível sem precisar de chave de API.
+!data/processed/cache_llm_zeroshot.jsonl
+
+# Modelos / índices baixados
+.cache/
+storage/
+
+# Mantém a pasta no git mesmo vazia
+!data/processed/.gitkeep
