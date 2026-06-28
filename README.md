@@ -1,5 +1,12 @@
 # Mineração de Textos — Classificação de Reclamações de Consumidor
 
+## Integrantes
+
+- Letícia Araújo Costa
+- Samara Quintanilha
+- Ana Clara Lomeu Rosa
+- Isabel Azar de Holanda
+
 Trabalho final da disciplina de Mineração de Textos (Caminho B — classificação
 supervisionada). Pipeline que vai do dado bruto a insights acionáveis para um
 gestor de ouvidoria, integrando o **stack clássico (embeddings + ML)** com o
