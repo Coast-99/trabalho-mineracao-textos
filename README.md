@@ -3,7 +3,7 @@
 ## Integrantes
 
 - Letícia Araújo Costa
-- Samara Quintanilha
+- Samara Pereira Quintanilha
 - Ana Clara Lomeu Rosa
 - Isabel Azar de Holanda
 
